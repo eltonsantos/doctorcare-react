@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /*=== GERAL =================================*/
 * {
   margin: 0;
@@ -35,6 +39,7 @@ body {
 }
 
 body {
+
   font-family: 'DM Sans';
   font-size: 1.6rem;
 
@@ -43,6 +48,7 @@ body {
   overflow: overlay;
 
   background-color: var(--bg-light);
+
 }
 
 .wrapper {
