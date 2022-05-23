@@ -1,7 +1,11 @@
 export function Header() {
 
-  function closeMenu() {
+  function openMenu() {
+    document.body.classList.add('menu-expanded')
+  }
 
+  function closeMenu() {
+    document.body.classList.remove('menu-expanded')
   }
 
   return (
@@ -154,7 +158,7 @@ export function Header() {
         <button
           aria-expanded="false"
           aria-label="Abrir menu"
-          onClick={closeMenu}
+          onClick={openMenu}
           className="open-menu"
         >
           <svg
