@@ -7,16 +7,24 @@ import { Header } from "./components/Website/Header";
 import { Home } from "./components/Website/Home";
 import { Services } from "./components/Website/Services";
 
+import { useContext } from "react";
+import  navbarContext, { INavbarContext }  from "./context/navbarContext";
+
 export function App() {
+  
+  const { isNavbarOpen } = useContext(navbarContext) as INavbarContext;
+
   return (
     <>
-      <Header />
-      <Home />
-      <Services />
-      <About />
-      <Contact />
-      <Footer />
-      <BackToTopButton />
+      <div className={isNavbarOpen ? "navbar-open" : ""}>
+        <Header />
+        <Home />
+        <Services />
+        <About />
+        <Contact />
+        <Footer />
+        <BackToTopButton />
+      </div>
       <Widget />
     </>
   )  

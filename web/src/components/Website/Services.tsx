@@ -21,9 +21,9 @@ export function Services(){
                 <path
                   d="M17.091 8.18182L10.091 15.1818L6.90918 12"
                   stroke="#00856F"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
 
@@ -46,9 +46,9 @@ export function Services(){
                 <path
                   d="M17.091 8.18182L10.091 15.1818L6.90918 12"
                   stroke="#00856F"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
 
@@ -71,9 +71,9 @@ export function Services(){
                 <path
                   d="M17.091 8.18182L10.091 15.1818L6.90918 12"
                   stroke="#00856F"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
 
@@ -96,9 +96,9 @@ export function Services(){
                 <path
                   d="M17.091 8.18182L10.091 15.1818L6.90918 12"
                   stroke="#00856F"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
 
@@ -121,9 +121,9 @@ export function Services(){
                 <path
                   d="M17.091 8.18182L10.091 15.1818L6.90918 12"
                   stroke="#00856F"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
 
@@ -146,9 +146,9 @@ export function Services(){
                 <path
                   d="M17.091 8.18182L10.091 15.1818L6.90918 12"
                   stroke="#00856F"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
 

@@ -1,8 +1,14 @@
+
+import { useParallax } from 'react-scroll-parallax';
+
 import imgDoutorFeliz from '../../assets/doutor-feliz-segurando-prancheta-com-pacientes.png';
 
 export function About(){
+
+  const { ref } = useParallax<HTMLImageElement>({ opacity: [0.2, 5, 'easeInOut'] }); 
+
   return (
-    <section id="about">
+    <section ref={ref}>
       <div className="wrapper">
         <div className="col-a">
           <header>
